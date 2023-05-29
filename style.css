@@ -6,23 +6,6 @@ hr {
   width: 60%;
 }
 
-nav {
-  background-color: #0f4c5c;
-  width: 100%;
-  height: 50px;
-  padding: 15px;
-  box-sizing: border-box;
-  color: white;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  float: left;
-  font-size: medium;
-  padding-right: 15px;
-}
-
 .titulo_principal {
   text-align: center;   
   font-family: 'Goblin One';
@@ -36,15 +19,32 @@ nav a {
   padding-top: 20px;
 }
 
+nav {
+  background-color: #0f4c5c;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  float: left;
+  font-size: 1.1em;
+  padding-right: 30px;
+}
+
 main {
-  width: 70%;
+  width: 1280px;
   margin: 0 auto;    
   border: 1px solid #0f4c5c; 
-  padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
-article {
+section {
   width: 100%;
   margin: 0 auto;  
 }
@@ -75,6 +75,25 @@ aside {
   line-height: 23px;
   font-size: 1.3em;
   font-family: 'Anaheim';
+}
+
+.sessao_4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+}
+
+.group {
+  display: inline-block;
+  width: 360px;
+  padding: 10px;
+  height: 300px;
+}
+
+.imagem_group {
+  width: 100%;
+  height: 100%;
 }
 
 .lista{
