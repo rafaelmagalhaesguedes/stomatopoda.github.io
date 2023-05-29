@@ -1,0 +1,89 @@
+
+hr {
+  height:1px;
+  border-width:0;
+  background-color: darkgrey;
+  width: 60%;
+}
+
+nav {
+  background-color: #0f4c5c;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  float: left;
+  font-size: medium;
+  padding-right: 15px;
+}
+
+.titulo_principal {
+  text-align: center;   
+  font-family: 'Goblin One';
+  padding-top: 10px; 
+  padding-bottom: 20px;
+  font-size: 1.7em;
+}
+
+.titulo_secundario {
+  text-align: center;
+  padding-top: 20px;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;    
+  border: 1px solid #0f4c5c; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+article {
+  width: 100%;
+  margin: 0 auto;  
+}
+
+aside {
+  text-align: center;
+}
+
+.box{
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  height: 350px;
+}
+
+.imagem_box {
+  width: 40%;
+  height: 270px;
+  margin-top: 20px;
+  float: right;
+  border: 1px solid #0f4c5c;    
+}
+
+.descricao_box {
+  width: 55%;
+  float: left;
+  text-align: justify;
+  line-height: 23px;
+  font-size: 1.3em;
+  font-family: 'Anaheim';
+}
+
+.lista{
+  list-style-type: square;
+  line-height: 27px; 
+  font-size: 1.3em;
+  font-family: 'Anaheim';
+}
+
+footer {
+  text-align: center;
+}
