@@ -37,10 +37,10 @@ nav a {
 }
 
 main {
-  width: 70%;
+  width: 1280px;
   margin: 0 auto;    
   border: 1px solid #0f4c5c; 
-  padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
@@ -75,6 +75,25 @@ aside {
   line-height: 23px;
   font-size: 1.3em;
   font-family: 'Anaheim';
+}
+
+.sessao_4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 20px 0;
+}
+
+.group {
+  display: inline-block;
+  width: 360px;
+  padding: 10px;
+  height: 300px;
+}
+
+.imagem_group {
+  width: 100%;
+  height: 100%;
 }
 
 .lista{
