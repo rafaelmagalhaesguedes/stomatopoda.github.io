@@ -45,9 +45,7 @@
             <article id="sessao_1">
                 
                 <div class="box"> 
-            
-                    <img class="imagem_box" src="imgs/camarao-boxeador_4.jpg" alt="Lagosta Boxeador ou Odontodactylus scyllarus">
-                  
+        
                     <h2 class="subtitulo_box">A Lagosta Boxeadora</h2>
 
                     <p class="descricao_box">
@@ -57,6 +55,8 @@
                         tanto pela coloração quanto pelo perigo.
                     </p>
 
+                    <img class="imagem_box" src="imgs/camarao-boxeador_4.jpg" alt="Lagosta Boxeador ou Odontodactylus scyllarus">
+                  
                 </div>
 
             </article>
@@ -65,8 +65,7 @@
             <article id="sessao_2">
                 
                 <div class="box">
-                    <img class="imagem_box" src="imgs/camarao-boxeador-6.jpg" alt="Lagosta Boxeador ou Odontodactylus scyllarus">
-
+                   
                     <h2 class="subtitulo_box">Onde vivem?</h2>
 
                     <p class="descricao_box">
@@ -75,6 +74,7 @@
                         de corais de recifes a cerca de 40 metros de profundidade.
                     </p>
 
+                    <img class="imagem_box" src="imgs/camarao-boxeador-6.jpg" alt="Lagosta Boxeador ou Odontodactylus scyllarus">
                 </div>
 
             </article>
@@ -83,8 +83,6 @@
             <article id="sessao_3">
 
                 <div class="box">
-
-                    <img class="imagem_box" src="imgs/camarao-boxeador-8.jpg" alt="Lagosta Boxeador ou Odontodactylus scyllarus">
 
                     <h2 class="subtitulo_box">Porque o nome Lagosta Boxeadora?</h2>
                     
@@ -96,6 +94,8 @@
                         facilmente quebrar a carapaça de um caranguejo, as conchas duras e calcificadas
                         de gastrópodes ou até mesmo quebrar o vidro reforçado de um aquário.
                     </p>
+
+                    <img class="imagem_box" src="imgs/camarao-boxeador-8.jpg" alt="Lagosta Boxeador ou Odontodactylus scyllarus">
     
                 </div>
                 
@@ -105,8 +105,6 @@
             <article id="sessao_4">
 
                 <div class="box">
-
-                    <img class="imagem_box" src="imgs/camarao-boxeador_1.jpg" alt="Lagosta Boxeador ou Odontodactylus scyllarus">
 
                     <h2 class="subtitulo_box">Super Visão</h2>
                     
@@ -124,6 +122,8 @@
                         possui três tipos de receptores que respondem a luz azul, verde e vermelha.
                     </p>
     
+                    <img class="imagem_box" src="imgs/camarao-boxeador_1.jpg" alt="Lagosta Boxeador ou Odontodactylus scyllarus">
+
                 </div>
                 
             </article>
@@ -181,10 +181,10 @@
         <hr>
 
         <aside class="sidebar">
-            <h2 class="titulo_secundario">Lagosta Boxeadora em Ação</h2>
+            <h2 class="titulo_sidebar">Lagosta Boxeadora em Ação</h2>
             
             <iframe 
-                width="560" 
+                width="100%" 
                 height="315" 
                 src="https://www.youtube.com/embed/E0Li1k5hGBE" 
                 title="YouTube video player" 
@@ -197,12 +197,28 @@
             
         </aside>
 
-    </main>
 
     <!-- Rodapé -->
-    <footer><br><br>
-        "Conteúdo compilado por Rafael, 2023".
+    <footer>
+        <p>"Conteúdo compilado por Rafael, 2023".</p>
     </footer>
+
+    </main>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("nav");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 
 </body>
 
