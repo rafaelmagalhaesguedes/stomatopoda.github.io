@@ -1,8 +1,81 @@
 
-@media (max-width: 480px) {
-    
-    main {
-        width: 478px;
+    /* Estilos para telas menores */
+@media (max-width: 768px) {
+
+    header {
+        background-color: black;
+        color: wheat;
+        padding: 10px;
     }
 
-}
+    /* Estilos para o cabeçalho */
+    .titulo_principal {
+      font-size: 5em;
+      text-align: center;
+    }
+
+    .titulo_secundario {
+        font-size: 4.5em;
+        text-align: center;
+    }
+  
+    nav {
+      display: none;
+    }
+  
+    /* Estilos para os artigos */
+    .box {
+      margin-bottom: 30px;
+    }
+  
+    .subtitulo_box {
+      font-size: 4em;
+    }
+  
+    .descricao_box {
+      width: 100%;
+      font-size: 3.5em;
+      line-height: 1.2em;
+    }
+  
+    .imagem_box {
+      width: 100%;
+      height: auto;
+    }
+  
+    /* Estilos para a barra lateral */
+    iframe {
+      width: 100%;
+      height: 800px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .sidebar a {
+      font-size: 4em;
+    }
+
+    .titulo_sidebar {
+      font-size: 4em;
+    }
+
+    /* Estilos para as referências e classificação científica */
+    .group {
+      display: none;
+    }
+
+    footer {
+        clear: both;
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        background-color: black;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    footer p {
+      color: wheat;
+      font-size: 3.5em;
+    }
+  }
